@@ -82,7 +82,7 @@ The `plot_means` function should draw `repeat` number of sample of size `size`, 
 
 <br>
 
-## Part 1: Population Inference and Confidence Intervals
+## Part 2: Population Inference and Confidence Intervals
 
 The central limit theorem has great utility for making staistical inferences about sample means, since it gives an almost complete discription of thier properties.  In particular, the most popular type of confidence interval is derived from an understanding of the central limit theorem.
 
