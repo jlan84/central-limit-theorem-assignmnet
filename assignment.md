@@ -39,11 +39,9 @@ Since the CLT applies to (almost) all distributions, its application is ubiquito
         An i.i.d sample from the specified distribution. 
       """
       return dist(**params).rvs(size) 
-  ```
 
   # Generate draws from the Binomial Distribution, using Scipy's binom object.  
   binomial_samp = make_draws(stats.binom, {'n': 100, 'p':0.25}, size=200)
-
   ```
 
 Implementation Notes:
