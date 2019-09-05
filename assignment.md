@@ -91,7 +91,7 @@ The central limit theorem has great utility for making staistical inferences abo
 
 2. Viewing the lunch our data as an i.i.d sample from the lunch hours of ALL Google employees, the sample mean is a random varaible, and we have a single draw from it.  What is the distribution of this sample mean random variable, and how do you know? 
 
-3. Compute the [standard error](http://en.wikipedia.org/wiki/Standard_error) of the sample mean. Based on the standard error and the sample mean, compute the [95% confidence interval](http://dsearls.org/courses/M120Concepts/ClassNotes/Statistics/530G_Derivation.htm) for the population mean lunch break length.
+3. Compute the [standard error](http://en.wikipedia.org/wiki/Standard_error) of the sample mean. Based on the standard error and the sample mean, compute the [95% confidence interval](https://en.wikipedia.org/wiki/Confidence_interval#Basic_steps) for the population mean lunch break length.
 
 4. Interpret what the 95% confidence interval implies about the lunch hours of Google employees in general.
 
