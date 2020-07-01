@@ -1,12 +1,11 @@
 # The Central Limit Theorem and its Associated Confidence Intervals
 
+## Basic
 ## Part 1: Simulation Experiments
 
 The Central Limit Theorem states that the mean of a sufficiently large number of samples of independent random variables, will be approximately normally distributed (with the quality of the approximation improving with larger samples).
 
-Since the CLT applies to (almost) all distributions, its application is ubiquitous in statistics. In this fist section we will build some simulation chops by exploring the CLT.
- 
-<br>
+Since the CLT applies to (almost) all distributions, its application is ubiquitous in statistics. In the first section we will build some simulation chops by exploring the CLT.
 
 1. As we explore the CLT we will be plotting means of samples drawn from several different distributions.  In order to do this efficiently we need to pass the Scipy distribution objects ([docs here](http://docs.scipy.org/doc/scipy-0.17.1/reference/stats.html)) and their parameters to the following plotting function. This function generates draws from a distribution by calling the `.rvs()` method.  You can use this code to generate data from at least the **Poisson, Binomial, Exponential, Geometric, and Uniform** distributions.
 
@@ -82,7 +81,8 @@ The `plot_means` function should draw `repeat` number of sample of size `size`, 
 
 <br>
 
-## Part 2: Population Inference and Confidence Intervals
+## Advanced
+### Part 2: Population Inference and Confidence Intervals
 
 The central limit theorem has great utility for making statistical inferences about sample means, since it gives an almost complete description of their properties.  In particular, the most popular type of confidence interval is derived from an understanding of the central limit theorem.
 
