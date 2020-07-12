@@ -73,12 +73,12 @@ The `plot_means` function should draw `repeat` number of sample of size `size`, 
    level. Should the CLT apply when your sample `size` is small with a large
    value for `repeat`?  Hint: this is best answered by distinguishing
    between the role of the of the `size` and the `repeat` variable.
-
+    **The standard deviation increases due to the standard error of the sample increasing with a decreased sample size(n). (sigma/sqrt(n))**
 5. Instead of taking the mean of the samples, take the maximum of each of the
    samples and plot the histograms again. Do they resemble the normal
    distribution? Do all sample statistics follow a normal distribution?  In
    your answer clarify the sample statistics to which the CLT applies.
-
+    **The max does not follow a normal distribution and therefore the CLT does not apply.  Only the mean follows a normal distribution**
 <br>
 
 ## Advanced
